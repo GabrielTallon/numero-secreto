@@ -13,7 +13,7 @@ function verificarChute() {
 // Função para exibir a mensagem de acerto
 function exibirMensagemAcerto() {
     exibirTextoNaTela('h1', 'Acertou!');
-    const palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa';
+    congit st palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa';
     const mensagemTentativas = `Você descobriu o número secreto com ${tentativas} ${palavraTentativa}!`;
     exibirTextoNaTela('p', mensagemTentativas);
     document.getElementById('reiniciar').removeAttribute('disabled');
